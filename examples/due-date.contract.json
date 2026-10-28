@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "due-date-isolation",
+  "relation": "controlled_change",
+  "allowed_changes": [
+    "/due_date"
+  ],
+  "required_changes": [
+    "/due_date"
+  ],
+  "expected_before": {
+    "invoice_id": "SYN-001",
+    "due_date": "2026-11-01",
+    "currency": "USD",
+    "total": "120.00",
+    "purchase_order": null
+  },
+  "expected_after": {
+    "invoice_id": "SYN-001",
+    "due_date": "2026-11-08",
+    "currency": "USD",
+    "total": "120.00",
+    "purchase_order": null
+  }
+}
